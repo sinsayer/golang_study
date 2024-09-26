@@ -3,9 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, World!")
+	test1 := "ABC"
+	test2 := "DEF"
 
-	var student User = User{1, "kim.dev", "1234"}
+	fmt.Println("Hello, World! =>", test1, "/", test2)
+
+	// var student User = User{1, "kim.dev", "1234"}
+	student := User{1, "kim.dev", "1234"}
 
 	str_text := fmt.Sprintf("test => %d %s", student.id, student.name)
 
